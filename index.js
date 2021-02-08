@@ -6,10 +6,10 @@ const path = require('path')
 const viewsRouter=require('./routes/views')
 
 
-app.use('/api',apiRouter)
-app.use('/*',viewsRouter)
+// app.use('/api',apiRouter)
+// app.use('/*',viewsRouter)
 
 
-app.listen(4002, () => {
-    console.log("server is up");
-});
+// app.listen(4002, () => {
+//     console.log("server is up");
+// });
