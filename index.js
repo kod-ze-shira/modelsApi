@@ -10,6 +10,6 @@ app.use('/api',apiRouter)
 app.use('/*',viewsRouter)
 
 
-app.listen(4003, () => {
+app.listen(4002, () => {
     console.log("server is up");
 });
